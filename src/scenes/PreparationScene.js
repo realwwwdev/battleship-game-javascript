@@ -183,7 +183,6 @@ class PreparationScene extends Scene {
     } else if (level === 'hard') {
       untouchables = getRandomSeveral(withoutShipItems, 40);
     }
-
     this.app.start('computer', untouchables);
   }
 }
