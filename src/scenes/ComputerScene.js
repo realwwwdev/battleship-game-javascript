@@ -73,7 +73,7 @@ class ComputerScene extends Scene {
     //если мышь находится над оппонентом, то ищем нужную ячейку
     if (isUnderPoint(mouse, opponent.table)) {
       const cell = cells.find((cell) => isUnderPoint(mouse, cell));
-      //если нашли ячейку добавляем класс
+      //если нашли ячейку, добавляем класс
       if (cell) {
         cell.classList.add('battlefield-item__active');
         //если клик, то делаем выстрел
