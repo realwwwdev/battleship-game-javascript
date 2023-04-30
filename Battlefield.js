@@ -19,7 +19,7 @@ class Battlefield {
 
   get matrix() {
     if (!this.#changed) {
-      //если нет измениний возвращаем текущее
+      //если нет измениний, возвращаем текущее
       this.#matrix;
     }
 
